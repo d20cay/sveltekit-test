@@ -1,13 +1,13 @@
-<script>
-	import TwitterIcon from "../components/TwitterIcon.svelte";
-</script>
+<div class="uk-child-width-1-2" uk-grid>
+	<div>test1</div>
+	<div>test2</div>
+</div>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="" class="uk-icon-button">
-	<TwitterIcon/>
-</a>
-<a href="" class="uk-icon-button" uk-icon="twitter">
-</a>
-<span class="uk-margin-small-right" uk-icon="icon: check; ratio: 2"></span>
-<span uk-icon="icon: check; ratio: 3.5"></span>
+<ul uk-accordion>
+	<li class="uk-open">
+		<a class="uk-accordion-title" href="#">Item 1</a>
+		<div class="uk-accordion-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</li>
+</ul>
